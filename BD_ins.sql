@@ -1,4 +1,4 @@
- create database bd_ins;
+create database bd_ins;
 use bd_ins;
 create table Estudiantes
 (
@@ -22,6 +22,7 @@ Estado_Maestro varchar(1) not  null,
 Grupo_Maestro varchar(2) not null,
 Sueldo_Maestro float(10) not null
 )engine=InnoDB;
-
+use bd_ins;
 select * from Estudiantes;
 select * from Maestros;
+
