@@ -31,9 +31,15 @@ public class RegistroAlumnos extends javax.swing.JFrame {
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
+<<<<<<< HEAD
         txt_nombre = new javax.swing.JTextField();
         jLabel2 = new javax.swing.JLabel();
         txt_grupo = new javax.swing.JTextField();
+=======
+        txt_Nombre = new javax.swing.JTextField();
+        jLabel2 = new javax.swing.JLabel();
+        txt_Grupo = new javax.swing.JTextField();
+>>>>>>> test
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
@@ -41,6 +47,17 @@ public class RegistroAlumnos extends javax.swing.JFrame {
         txt_buscar = new javax.swing.JTextField();
         jButton4 = new javax.swing.JButton();
         label_status = new javax.swing.JLabel();
+<<<<<<< HEAD
+=======
+        txt_Telefono = new javax.swing.JTextField();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        txt_Correo = new javax.swing.JTextField();
+        jLabel6 = new javax.swing.JLabel();
+        txt_Direccion = new javax.swing.JTextField();
+        jLabel7 = new javax.swing.JLabel();
+        txt_Estado = new javax.swing.JTextField();
+>>>>>>> test
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -48,6 +65,15 @@ public class RegistroAlumnos extends javax.swing.JFrame {
 
         jLabel2.setText("Grupo:");
 
+<<<<<<< HEAD
+=======
+        txt_Grupo.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txt_GrupoActionPerformed(evt);
+            }
+        });
+
+>>>>>>> test
         jButton1.setText("Registrar");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -80,12 +106,30 @@ public class RegistroAlumnos extends javax.swing.JFrame {
 
         label_status.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
 
+<<<<<<< HEAD
+=======
+        jLabel4.setText("Telefono:");
+
+        jLabel5.setText("Correo electronico");
+
+        txt_Correo.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txt_CorreoActionPerformed(evt);
+            }
+        });
+
+        jLabel6.setText("Direccion:");
+
+        jLabel7.setText("Estado:");
+
+>>>>>>> test
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
+<<<<<<< HEAD
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                         .addComponent(jLabel1)
@@ -105,6 +149,37 @@ public class RegistroAlumnos extends javax.swing.JFrame {
                     .addComponent(jButton4)
                     .addComponent(label_status))
                 .addContainerGap(133, Short.MAX_VALUE))
+=======
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jLabel1)
+                    .addComponent(txt_Nombre)
+                    .addComponent(jLabel2)
+                    .addComponent(txt_Grupo)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(label_status)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jButton1)
+                                .addGap(18, 18, 18)
+                                .addComponent(jButton2)
+                                .addGap(18, 18, 18)
+                                .addComponent(jButton3))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jLabel3)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(txt_buscar))
+                            .addComponent(jButton4)))
+                    .addComponent(jLabel4)
+                    .addComponent(txt_Telefono)
+                    .addComponent(jLabel5)
+                    .addComponent(txt_Correo)
+                    .addComponent(jLabel6)
+                    .addComponent(txt_Direccion)
+                    .addComponent(jLabel7)
+                    .addComponent(txt_Estado))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+>>>>>>> test
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -112,6 +187,7 @@ public class RegistroAlumnos extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(jLabel1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+<<<<<<< HEAD
                 .addComponent(txt_nombre, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel2)
@@ -131,6 +207,47 @@ public class RegistroAlumnos extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 52, Short.MAX_VALUE)
                 .addComponent(label_status)
                 .addContainerGap())
+=======
+                .addComponent(txt_Nombre, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel4)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(txt_Telefono, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel5)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(txt_Correo, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jLabel6)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(txt_Direccion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel7)
+                .addGap(4, 4, 4)
+                .addComponent(txt_Estado, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(txt_Grupo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(label_status)
+                        .addGap(129, 129, 129))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(18, 18, 18)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jButton1)
+                            .addComponent(jButton2)
+                            .addComponent(jButton3))
+                        .addGap(35, 35, 35)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel3)
+                            .addComponent(txt_buscar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jButton4)
+                        .addContainerGap(24, Short.MAX_VALUE))))
+>>>>>>> test
         );
 
         pack();
@@ -140,6 +257,7 @@ public class RegistroAlumnos extends javax.swing.JFrame {
         //Codigo que permite insertar registros en al base de datos
         try{
             Connection cn = DriverManager.getConnection("jdbc:mysql://localhost/bd_ins", "ins", "");
+<<<<<<< HEAD
             PreparedStatement pst = cn.prepareStatement("insert into alumnos values(?,?,?)");
             
             pst.setString(1, "0");
@@ -149,6 +267,25 @@ public class RegistroAlumnos extends javax.swing.JFrame {
             
             txt_nombre.setText("");
             txt_grupo.setText("");
+=======
+            PreparedStatement pst = cn.prepareStatement("insert into Estudiantes values(?,?,?)");
+            
+            pst.setString(1, "0");
+            pst.setString(2, txt_Nombre.getText().trim());
+            pst.setString(3, txt_Telefono.getText().trim());
+            pst.setString(4, txt_Correo.getText().trim());
+            pst.setString(5, txt_Direccion.getText().trim());
+            pst.setString(6, txt_Estado.getText().trim());
+            pst.setString(7, txt_Grupo.getText().trim());
+            pst.executeUpdate();
+            
+            txt_Nombre.setText("");
+            txt_Telefono.setText("");
+            txt_Correo.setText("");
+            txt_Direccion.setText("");
+            txt_Estado.setText("");
+            txt_Grupo.setText("");
+>>>>>>> test
             label_status.setText("Registro exitoso.");
         }catch (Exception e){
             
@@ -160,16 +297,31 @@ public class RegistroAlumnos extends javax.swing.JFrame {
         //Codigo que permite consultar registros en la base de datos
         try{
             Connection cn = DriverManager.getConnection("jdbc:mysql://localhost/bd_ins", "ins", "");
+<<<<<<< HEAD
             PreparedStatement pst = cn.prepareStatement("select * from alumnos where ID = ?");
+=======
+            PreparedStatement pst = cn.prepareStatement("select * from Estudiantes where ID = ?");
+>>>>>>> test
             pst.setString(1, txt_buscar.getText().trim());
             
             ResultSet rs = pst.executeQuery();
             
             if(rs.next()){
+<<<<<<< HEAD
                 txt_nombre.setText(rs.getString("NombreAlumno"));
                 txt_grupo.setText(rs.getString("Grupo"));
             } else {
                 JOptionPane.showMessageDialog(null, "Alumno no registrado.");
+=======
+                txt_Nombre.setText(rs.getString("Nombre_Estudiante"));
+                txt_Telefono.setText(rs.getString("Telefono_Estudiante"));
+                txt_Correo.setText(rs.getString("Correo_Estudiante"));
+                txt_Direccion.setText(rs.getString("Direccion_Estudiante"));
+                txt_Estado.setText(rs.getString("Estado_Estudiante"));
+                txt_Grupo.setText(rs.getString("Grupo_Estudiante"));
+            } else {
+                JOptionPane.showMessageDialog(null, "Estudiante no registrado.");
+>>>>>>> test
             }
             
         }catch (Exception e){
@@ -184,10 +336,22 @@ public class RegistroAlumnos extends javax.swing.JFrame {
             String ID = txt_buscar.getText().trim();
             
             Connection cn = DriverManager.getConnection("jdbc:mysql://localhost/bd_ins", "ins", "");
+<<<<<<< HEAD
             PreparedStatement pst = cn.prepareStatement("update alumnos set NombreAlumno = ?, Grupo = ? where ID = " + ID);
             
             pst.setString(1, txt_nombre.getText().trim());
             pst.setString(2, txt_grupo.getText().trim());
+=======
+            PreparedStatement pst = cn.prepareStatement("update Estudiantes set Nombre_estudiante = ?, Telefono_Estudiante=?, Correo_Estudiante=?, Direccion_Estudiante=?, Estado_Estudiante=?,  Grupo_Estudiante = ? where ID = " + ID);
+            
+         
+            pst.setString(1, txt_Nombre.getText().trim());
+            pst.setString(2, txt_Telefono.getText().trim());
+            pst.setString(3, txt_Correo.getText().trim());
+            pst.setString(4, txt_Direccion.getText().trim());
+            pst.setString(5, txt_Estado.getText().trim());
+            pst.setString(6, txt_Grupo.getText().trim());
+>>>>>>> test
             pst.executeUpdate();
             
             label_status.setText("Modificación exitosa.");
@@ -201,15 +365,30 @@ public class RegistroAlumnos extends javax.swing.JFrame {
         //Codigo que permite borrar registros en la base de datos
         try {
              Connection cn = DriverManager.getConnection("jdbc:mysql://localhost/bd_ins", "ins", "");
+<<<<<<< HEAD
             PreparedStatement pst = cn.prepareStatement("delete from alumnos where ID = ?");
+=======
+            PreparedStatement pst = cn.prepareStatement("delete from Estudiante where ID = ?");
+>>>>>>> test
             
             pst.setString(1, txt_buscar.getText().trim());
             pst.executeUpdate();
             
+<<<<<<< HEAD
             txt_nombre.setText("");
             txt_grupo.setText("");
             txt_buscar.setText("");
             
+=======
+       
+            txt_buscar.setText("");
+            txt_Nombre.setText("");
+            txt_Telefono.setText("");
+            txt_Correo.setText("");
+            txt_Direccion.setText("");
+            txt_Estado.setText("");
+            txt_Grupo.setText("");
+>>>>>>> test
             label_status.setText("Registro eliminado.");
             
         } catch (Exception e) {
@@ -217,6 +396,17 @@ public class RegistroAlumnos extends javax.swing.JFrame {
         
     }//GEN-LAST:event_jButton3ActionPerformed
 
+<<<<<<< HEAD
+=======
+    private void txt_CorreoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_CorreoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txt_CorreoActionPerformed
+
+    private void txt_GrupoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_GrupoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txt_GrupoActionPerformed
+
+>>>>>>> test
     /**
      * @param args the command line arguments
      */
@@ -260,9 +450,24 @@ public class RegistroAlumnos extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+<<<<<<< HEAD
     private javax.swing.JLabel label_status;
     private javax.swing.JTextField txt_buscar;
     private javax.swing.JTextField txt_grupo;
     private javax.swing.JTextField txt_nombre;
+=======
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel label_status;
+    private javax.swing.JTextField txt_Correo;
+    private javax.swing.JTextField txt_Direccion;
+    private javax.swing.JTextField txt_Estado;
+    private javax.swing.JTextField txt_Grupo;
+    private javax.swing.JTextField txt_Nombre;
+    private javax.swing.JTextField txt_Telefono;
+    private javax.swing.JTextField txt_buscar;
+>>>>>>> test
     // End of variables declaration//GEN-END:variables
 }
